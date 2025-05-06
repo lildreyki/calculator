@@ -11,19 +11,16 @@ public class Calculator {
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-
 		CalculatorOperations calc = new CalculatorOperations();
-
 		String stage = "open";
+		
 		while (!stage.equals("exit")) {
 			System.out.print("Enter one number: ");
 			calc.n1 = sc.nextDouble();
-			System.out.print("Enter the operation: ");
-			System.out.print("1 (+); 2 (-); 3 (/); 4 (*): ");
+			System.out.print("Enter the operation; 1 (+); 2 (-); 3 (/); 4 (*): ");
 			int op = sc.nextInt();
 			System.out.print("Enter another number: ");
 			calc.n2 = sc.nextDouble();
-			System.out.println();
 
 			switch (op) {
 			case 1:
@@ -39,13 +36,13 @@ public class Calculator {
 				System.out.println(calc.toStringggg());
 				break;
 			default:
-				System.out.println("error");
+				System.out.println("[ERROR] Enter operation only (1-4)!");
 			}
 
-			System.out.println("Enter 'exit' to end calcultor or any characther to continue.");
+			System.out.println("Enter 'exit' to end calcultor or any character to continue.");
 			stage = sc.next();
-
 		}
+		
 		System.out.println("Program ended.");
 
 		sc.close();
