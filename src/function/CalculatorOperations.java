@@ -22,7 +22,8 @@ public class CalculatorOperations {
 	}
 	
 	public String toString() {
-		return n1
+		return "RESULT: "
+			+ n1
 			+ " + "
 			+ n2
 			+ " = "
@@ -30,7 +31,8 @@ public class CalculatorOperations {
 	}
 	
 	public String toStringg() {
-		return n1
+		return "RESULT: "
+			+ n1
 			+ " - "
 			+ n2
 			+ " = "
@@ -38,7 +40,8 @@ public class CalculatorOperations {
 	}
 	
 	public String toStringgg() {
-		return n1
+		return "RESULT: "
+			+ n1
 			+ " / "
 			+ n2
 			+ " = "
@@ -46,7 +49,8 @@ public class CalculatorOperations {
 	}
 	
 	public String toStringggg() {
-		return n1
+		return "RESULT: "
+			+ n1
 			+ " * "
 			+ n2
 			+ " = "
