@@ -19,7 +19,7 @@ public class Calculator {
 			System.out.print("Enter one number: ");
 			calc.n1 = sc.nextDouble();
 			System.out.print("Enter the operation: ");
-			System.out.print("1 (+); 2 (-); 3 (/); 4 (*);");
+			System.out.print("1 (+); 2 (-); 3 (/); 4 (*): ");
 			int op = sc.nextInt();
 			System.out.print("Enter another number: ");
 			calc.n2 = sc.nextDouble();
